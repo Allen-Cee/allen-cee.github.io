@@ -1,12 +1,22 @@
 # jemdoc: addcss{jemdoc.css}
 # jemdoc: menu{MENU}{index.html}
 
-= Test Home Page
+= 作业
 
 ~~~
-这是首页
-做一个简单的导航
-第三行
+HW1,Due:3.5
+HW2,Due:3.12
+HW3,Due:3.19
+HW4,Due:3.26
+HW5,Due:4.2
+HW6,Due:4.9
+HW7,Due:4.13
+HW8,Due:4.27
+HW9,Due:5.14
+HW10,Due:5.21
+HW11,Due:5.28
+HW12,Due:6.4
+HW13,Due:N/A
 ~~~
 
 ~~~
