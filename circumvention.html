@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>翻墙</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Guide</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">Resources</div>
+<div class="menu-item"><a href="circumvention.html" class="current">Circumvention</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>翻墙</h1>
+</div>
+<h2>前言</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>基本说明：</p>
+<ul>
+<li><p>此翻墙方法基于本人搭建的VPS，即虚拟专用服务器，该服务器位于香港；在此基础上采用Shadowsocks代理科学上网</p>
+</li>
+</ul>
+<p>费用支付：</p>
+<ul>
+<li><p>根据所使用服务商过去的稳定性和套餐优惠条件，将采取每次订阅半年或一年的模式，所有费用根据使用人数透明均摊</p>
+</li>
+</ul>
+<p>管理：</p>
+<ul>
+<li><p>隐私问题无需担心，服务器后台无法监控具体流量使用</p>
+</li>
+<li><p>使用过程中如遇问题群主会尽力解决</p>
+</li>
+</ul>
+<p>风险提示：</p>
+<ul>
+<li><p>使用过程中可能因为不可抗风险（如政策因素）使服务商中断服务，但前几次大规模清理均未产生任何影响，自使用的两年来线路均稳定可靠；如果有意外情况，费用处理将与服务商安排一致</p>
+</li>
+</ul>
+</div></div>
+<h2>使用方法</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>首次配置：</p>
+<ol>
+<li><p>下载可以相应平台上执行Shadowsocks代理的客户端（见下一板块软件下载）</p>
+</li>
+<li><p>打开软件，选择添加配置/添加节点</p>
+</li>
+<li><p>服务器/Address填写：118.184.11.241</p>
+</li>
+<li><p>私戳群主设定你的个人密码，群主会设置并告知你的上网端口/Port</p>
+</li>
+<li><p>端口/Port填写：你的端口号</p>
+</li>
+<li><p>密码/Password填写：你的密码</p>
+</li>
+<li><p>加密方式设为：aes-256-cfb</p>
+</li>
+</ol>
+<p>日常使用：</p>
+<ul>
+<li><p>建议电脑端设置开机自动启动</p>
+</li>
+<li><p>建议手机将开关加入通知栏</p>
+</li>
+<li><p>日常使用中唯一需要调整的是代理模式，通常使用PAC模式</p>
+<ul>
+<li><p>PAC模式<i>自动代理模式</i>局部代理模式<i>PAC Mode</i>Auto Proxy Mode：上国内网站不使用代理（保证上网速度）；国外部分网站（软件自带常用的需要翻墙的网站列表）使用代理</p>
+</li>
+<li><p>全局代理模式/Global Mode：所有网站均使用代理（即从香港上网），能够打开全部网站，但国内网站访问相应较慢</p>
+</li>
+</ul>
+
+</li>
+</ul>
+</div></div>
+<h2>软件下载</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>各平台Shadowsocks下载链接：</p>
+<ul>
+<li><p>Windows: <a href="https://github.com/shadowsocks/shadowsocks-windows/releases">shadowsocks-windows</a></p>
+</li>
+<li><p>Mac: <a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases/">ShadowsocksX-NG</a></p>
+</li>
+<li><p>Android: <a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks">Shadowsocks</a></p>
+</li>
+<li><p>iOS: App Store下载软件；简易<i>免费，搜索SsrConnectPro；稳定好用</i>付费12元，Shadowrocket</p>
+</li>
+</ul>
+</div></div>
+<h2>常见问题</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<ol>
+<li><p>问：VPN、VPS和Shadowsocks分别是什么？</p>
+</li>
+</ol>
+<ul>
+<li><p>答：VPN指虚拟专用网络，通过VPN翻墙相当于上网流量进行加密，走相应的加密网线翻墙，加密性和安全性更高；VPS指虚拟专用服务器，相当于一台其他地方的电脑主机；Shadowsocks代理是通过将本地流量连接到境外服务器，再通过服务器中转到相应网站或服务器来实现翻墙，隐蔽性更高</p>
+</li>
+</ul>
+<ol>
+<li><p>问：为什么不使用VPN？</p>
+</li>
+</ol>
+<ul>
+<li><p>答：VPN技术发展虽然非常成熟，但是由于加密方式容易被破解，防火长城现在将VPN屏蔽得所剩无几，剩余的VPN稳定性和可持续性均堪忧，故使用流量更隐蔽的Shadowsocks代理</p>
+</li>
+</ul>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-09-21 15:17:49 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
