@@ -23,9 +23,9 @@
 首次配置：
 . 下载相应平台上执行Shadowsocks代理的客户端（见下一板块软件下载）
 . 打开软件，选择添加配置\/添加节点
-. 服务器\/Address填写：118.184.11.241
+. 服务器\/Address填写：154.223.144.163
 . 私戳群主设定你的个人密码，群主会设置并告知你的上网端口\/Port（端口相当于你的用户名）
-. 端口\/Port填写：你的端口号（或在服务器冒号后填写，即如118.184.11.241:0000）
+. 端口\/Port填写：你的端口号（或在服务器冒号后填写，即如154.223.144.163:0000）
 . 密码\/Password填写：你的密码
 . 加密方式设为：aes-256-cfb
 . 现在你已经可以愉快地翻墙了！
@@ -46,7 +46,7 @@
 - Windows: [https://github.com/shadowsocks/shadowsocks-windows/releases shadowsocks-windows]
 - Mac: [https://github.com/shadowsocks/shadowsocks shadowsocks] 因该软件被禁封，请联系群主获取
 - Android: [https://github.com/shadowsocks/shadowsocks-android/releases/download/v4.6.1/shadowsocks--universal-4.6.1.apk shadowsocks-android]
-- iOS: App Store下载软件；【2018-11-23更新：iOS下架了大量软件 目前测试能用的是Wfgtb这个软件；如果有美区账号也能下载到后面提到的被下架软件】（之前能用的是：简易\/免费，搜索SsrConnectPro；稳定好用\/付费12元，Shadowrocket）
+- iOS: App Store下载软件；【2019-02-20更新：iOS下架了大量软件 目前测试能用的是Wingy这个软件；如果有美区账号也能下载到后面提到的被下架软件】（之前能用的是：简易\/免费，搜索SsrConnectPro；稳定好用\/付费12元，Shadowrocket）
 ~~~
 
 == 常见问题
