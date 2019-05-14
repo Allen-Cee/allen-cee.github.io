@@ -7,6 +7,7 @@ function GenerateIndexFile()
 	main=index.html
 	cat /dev/null > $main
 	echo '<html>\n<head>\n<title>Index of</title>\n<body bgcolor="white">\n<h1>Index of /'${file_path:46}'</h1>\n<hr>\n<pre>' > $main
+	echo '<a href="../">../</a>' >> $main
 	for f in $files; do
 		if [ $f != 'index.html' ] && [ $f != 'gen.sh' ] && [ $f != 'README.md' ]; then
 			echo '<a href="'$f'">'$f'</a>' >> $main
