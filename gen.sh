@@ -26,4 +26,5 @@ function GenerateIndexFile()
 }
 
 GenerateIndexFile;
+#echo $(date '+%s' -r )
 echo 'Generate complete'
