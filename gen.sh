@@ -10,12 +10,12 @@ function GenerateIndexFile()
 	echo '<a href="../">../</a>' >> $main
 	for f in $files; do
 		if [ $f != 'index.html' ] && [ $f != 'gen.sh' ] && [ $f != 'README.md' ]; then
-			size='-'
 			time=$(date -r $f '+%d-%b-%Y %H:%M')
+			size='-'
 			if [ -f $f ]; then
 				size=$(stat -f %z $f)
 			fi
-			printf '%-s %'$[70-${#f}]'s %20s\n' '<a href="'$f'">'$f'</a>' $time $size >> $main
+			printf '%-s %'$[70-${#f}]'s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
 		fi
 	done
 	echo '</pre>\n<hr>\n</body>\n</html>' >> $main
@@ -31,4 +31,6 @@ function GenerateIndexFile()
 }
 
 GenerateIndexFile;
+#f='index.html'
+#date -r $f '+%d-%b-%Y %H:%M'
 echo 'Generate complete'
