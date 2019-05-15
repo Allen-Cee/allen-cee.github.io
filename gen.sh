@@ -15,7 +15,7 @@ function GenerateIndexFile()
 			if [ -f $f ]; then
 				size=$(stat -f %z $f)
 			fi
-			printf '%-s %'$[42-${#f}]'s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
+			printf '%-s %'$[62-${#f}]'s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
 		fi
 	done
 	echo '</pre>\n<hr>\n</body>\n</html>' >> $main
