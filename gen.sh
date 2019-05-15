@@ -14,8 +14,11 @@ function GenerateIndexFile()
 			size='-'
 			if [ -f $f ]; then
 				size=$(stat -f %z $f)
+				if [ ${#f} > 50 ]; then
+					size=${f:0:47}
+				fi
 			fi
-			printf '%-s %'$[62-${#f}]'s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
+			printf '%-50s %s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
 		fi
 	done
 	echo '</pre>\n<hr>\n</body>\n</html>' >> $main
@@ -30,7 +33,8 @@ function GenerateIndexFile()
 	done
 }
 
-GenerateIndexFile;
-#f='index.html'
+#GenerateIndexFile;
+f='index.html'
+echo ${f:0:2}
 #date -r $f '+%d-%b-%Y %H:%M'
 echo 'Generate complete'
