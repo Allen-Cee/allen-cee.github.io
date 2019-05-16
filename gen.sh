@@ -10,6 +10,7 @@ function GenerateIndexFile()
 	echo '<a href="../">../</a>' >> $main
 	for f in $files; do
 		if [ $f != 'index.html' ] && [ $f != 'gen.sh' ] && [ $f != 'README.md' ]; then
+			f=${f/' '/'_'}
 			time=$(date -r $f '+%d-%b-%Y %H:%M')
 			size='-'
 			if [ -f $f ]; then
