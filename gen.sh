@@ -33,8 +33,5 @@ function GenerateIndexFile()
 	done
 }
 
-#GenerateIndexFile;
-f='index.html'
-echo ${f:0:2}
-#date -r $f '+%d-%b-%Y %H:%M'
+GenerateIndexFile;
 echo 'Generate complete'
