@@ -14,7 +14,7 @@ function GenerateIndexFile()
 			size='-'
 			if [ -f $f ]; then
 				size=$(stat -f %z $f)
-				if [ ${#f} > 50 ]; then
+				if [ ${#f} -gt 50 ]; then
 					f=${f:0:47}'..>'
 				fi
 			fi
