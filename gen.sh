@@ -15,10 +15,10 @@ function GenerateIndexFile()
 			if [ -f $f ]; then
 				size=$(stat -f %z $f)
 				if [ ${#f} > 50 ]; then
-					size=${f:0:47}
+					f=${f:0:47}'..>'
 				fi
 			fi
-			printf '%-50s %s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
+			printf '%-'$[65+${#f}]'s %s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
 		fi
 	done
 	echo '</pre>\n<hr>\n</body>\n</html>' >> $main
