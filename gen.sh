@@ -19,7 +19,7 @@ function GenerateIndexFile()
 					f=${f:0:47}'..>'
 				fi
 			fi
-			printf '%-'$[65+${#f}]'s %s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size\n" >> $main
+			printf '%-'$[65+${#f}]'s %s %20s\n' '<a href="'$f'">'$f'</a>' "$time" "$size" >> $main
 		fi
 	done
 	printf "</pre>\n</hr>\n</body>\n</html>\n" >> $main
