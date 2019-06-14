@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function GenerateIndexFile()
 {
 	file_path=$(pwd)
