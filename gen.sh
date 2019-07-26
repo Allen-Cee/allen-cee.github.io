@@ -38,3 +38,7 @@ function GenerateIndexFile()
 
 GenerateIndexFile;
 echo 'Generate complete'
+
+git add .
+git commit -m "update" -a
+git push allen-cee master
