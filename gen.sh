@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /Users/Aoi/Documents/Code/allen-cee.github.io/
 python3 /Users/Aoi/Desktop/Quant/fund/黑流/流形一期/convert.py
 #/Users/Aoi/Documents/Code/allen-cee.github.io/zip.sh
 zip -ejo /Users/Aoi/Documents/Code/allen-cee.github.io/network/shadowsocks/shadowsocks_profiles.zip /Users/Aoi/Desktop/shadowsocks_profiles*.txt -P cyys1909
