@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /Users/Aoi/Documents/Code/allen-cee.github.io/
-python3 /Users/Aoi/Desktop/Quant/fund/黑流/流形一期/convert.py
+python3 /Users/Aoi/Desktop/Quant/fund/01自营账户-流形一期/convert.py
 #/Users/Aoi/Documents/Code/allen-cee.github.io/zip.sh
 zip -ejo /Users/Aoi/Documents/Code/allen-cee.github.io/network/shadowsocks/shadowsocks_profiles.zip /Users/Aoi/Desktop/shadowsocks_profiles*.txt -P cyys1909
 zip -ejo /Users/Aoi/Documents/Code/allen-cee.github.io/investment/black_current/manifolds_I/manifolds_I-net_value.zip /Users/Aoi/Desktop/Quant/fund/黑流/流形一期/流形一期公告净值.csv -P tlms0515
